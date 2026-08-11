@@ -2,3 +2,7 @@ h1 {
     background: #cccccc;
     text-align: center;
 }
+
+#banner {
+    width: 100%;
+}
