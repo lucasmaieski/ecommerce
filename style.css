@@ -1,8 +1,23 @@
-h1 {
-    background: #cccccc;
-    text-align: center;
+body {
+    background: #cccccc;   
 }
-
+h1 {
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000000;
+    padding-top: 20px;
+    margin-left: 15px;
+}
 #banner {
     width: 100%;
+}
+.itens {
+    font-style: italic;
+
+}
+.beneficios {
+    background: #ffffff;
+}
+.principal {
+    background: #cccccc;
 }
