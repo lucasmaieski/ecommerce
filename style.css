@@ -1,34 +1,34 @@
 body {
-    background: #cccccc;   
+  background: #cccccc;   
 }
-header {
-    text-align: center;
-    height: 150px;
-    border: 10px solid #000000;
-    padding-top: 20px;
-    margin-left: 15px;
+.titulo-barbearia {
+  text-align: center;
+  height: 150px;
+  border: 10px solid #000000;
+  padding-top: 20px;
+  margin-left: 15px;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
 ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
 }
 #banner {
-    width: 100%;
+  width: 100%;
 }
 .itens {
-    font-style: italic;
+  font-style: italic;
 
 }
 .beneficios {
-    background: #ffffff;
-    padding: 20px;
+  background: #ffffff;
+  padding: 20px;
 }
 .principal {
-    background: #cccccc;
-    padding: 30px;
+  background: #cccccc;
+  padding: 30px;
 }
