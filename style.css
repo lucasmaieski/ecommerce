@@ -1,34 +1,74 @@
 body {
-    background: #cccccc;   
-  }
-  .titulo-barbearia {
-    text-align: center;
-    height: 150px;
-    border: 10px solid #000000;
-    padding-top: 20px;
-    margin-left: 15px;
-  }
-  h2 {
-    text-align: center;
-  }
-  ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-  }
-  #banner {
-    width: 100%;
-  }
-  .itens {
-    font-style: italic;
-  
-  }
-  .beneficios {
-    background: #ffffff;
-    padding: 20px;
-  }
-  .principal {
-    background: #cccccc;
-    padding: 30px;
-  }
+  background: #cccccc;   
+}
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+h2 {
+  text-align: center;
+}
+
+#banner {
+  width: 100%;
+}
+.itens {
+  font-style: italic;
+
+}
+.beneficios {
+  background: #ffffff;
+  padding: 20px;
+}
+.principal {
+  background: #cccccc;
+  padding: 30px;
+}
+header {
+  background:#bbbbbb;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+.imagembeneficios {
+  width: 60%;
+}
